@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0; 
+    font-family: Montserrat;
+    background-color: rgb(245, 240, 211)
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(154, 8, 8);
+    font-weight: bold;
+    
+}
+
+.videoinicio{
+    height: 450px;
+
+}
+.logo{
+height: 250px;
+
+}
+
+.titulo-principal{
+    font-size: 50px;
+font-weight: bolder;
+color: rgb(23, 23, 29);
+}
+
+.intro{
+    color: rgb(23, 23, 29);
+    font-size: 15px;
+    font-weight: 500;
+}
+.fabrica{
+    font-size: 20px;
+    color: rgb(23, 23, 29);
+}
+
+.pie-vaskor{
+    color: rgb(154, 8, 8);
+    font-weight: 400 bolder;
+}
+.piepie{
+    color: rgb(23, 23, 29);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* Pag tienda */
+
+.titulotienda{
+    color: rgb(23, 23, 29);
+}
+.fotodebolsa{
+    height: 250px;
+    border: 1px solid rgb(23, 23, 29);
+}
+p{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(23, 23, 29);
+}
+/* pag galeria */
+
+.galeria{
+    color: rgb(23, 23, 29);
+}
+.parrafo-galeria{
+    color: rgb(23, 23, 29);
+}
+
+.video1{
+    height: 600px;
+    border: 1px solid rgb(23, 23, 29);
+}
+
+
+/* nosotras */
+.parrafo-nosotras1{
+    color: rgb(23, 23, 29);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.logonosotras{ 
+    height: 400px;
+}
+
+/* contacto */
+
+.sub-contacto{
+    font-size: 20px;
+    color: rgb(23, 23, 29);
+}
+
+.contacto1{
+    font-size: 15px;
+    color: rgb(23, 23, 29);
+    font-weight: 450;
+}
+
+.fcontacto{
+    list-style: none;
+    color: rgb(154, 8, 8);
+    font-weight: 400 bolder;
+}
+
+.imgcontactof{
+    height: 100px;
+}
+
+.imgcontactoi{
+height: 75px;
+}
+
+.imgcontactow{
+height: 90px;
+}
+
+.segundo-contacto{
+    font-size: 15px;
+    color: rgb(23, 23, 29);
+    font-weight: 450;
+}
+
+.contacto3{
+    font-size: 15px;
+    color: rgb(23, 23, 29);
+    font-weight: 450;
+}
