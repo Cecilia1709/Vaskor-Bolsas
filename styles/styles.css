@@ -3,131 +3,493 @@
 *{
     margin: 0; 
     padding: 0; 
+    list-style: none;
     font-family: Montserrat;
-    background-color: rgb(245, 240, 211)
+    background-color: rgb(248, 246, 235)
 }
 
-ul li a{
-    text-decoration: none;
-    color: rgb(154, 8, 8);
-    font-weight: bold;
+header{
+    display: flex;
+    justify-content: space-around;
     
 }
 
+.barradenavegacion li a{
+    text-decoration: none;
+    color: rgb(154, 8, 8);
+    font-weight: bold;
+    padding: 20px;
+    display: block;
+}
+
+.barradenavegacion{
+
+    list-style: none;
+    display: flex;
+}
+
+.videointro{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 .videoinicio{
-    height: 450px;
+    margin-top: 30px;
+    height: 500px;
+    border-radius: 20px;
 
 }
+
 .logo{
-height: 250px;
-
+    height: 90px;
+    width: auto;
+    display: block;
 }
+
+.logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+
+.encabezado{
+    display: flex;
+    flex-direction:column;
+    padding: 20px;
+}
+
+.encabezado1{
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
 
 .titulo-principal{
     font-size: 50px;
-font-weight: bolder;
-color: rgb(23, 23, 29);
+    font-weight: bolder;
+    color: rgb(23, 23, 29);
+    margin: 0 auto;
 }
 
 .intro{
-    color: rgb(23, 23, 29);
-    font-size: 15px;
-    font-weight: 500;
-}
-.fabrica{
-    font-size: 20px;
-    color: rgb(23, 23, 29);
+    text-align: center;
+    align-self: center;
+    max-width: 80%;
 }
 
-.pie-vaskor{
-    color: rgb(154, 8, 8);
-    font-weight: 400 bolder;
+.presentacion{
+    color: rgb(23, 23, 29);
+    font-size: 20px;
+    font-weight: 500 ;
 }
+
+.fabrica{
+    font-size: 30px;
+    color: rgb(23, 23, 29);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
 .piepie{
     color: rgb(23, 23, 29);
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
+    margin-left: 50px;
+
+}
+.footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.volverinicio a{
+    text-decoration: none;
+    color: rgb(154, 8, 8);
+    font-weight: 900 ;
 }
 
 /* Pag tienda */
 
+.encabezado-tienda{
+text-align: center;
+position: relative;
+padding-top: 50px;
+display: flex;
+flex-direction: column;
+}
+
 .titulotienda{
+    font-size: 40px;
     color: rgb(23, 23, 29);
+    
+}
+
+.subtitulotienda{
+    margin-top: 10px;
 }
 .fotodebolsa{
-    height: 250px;
+    margin-top: 10px;
+    height: 300px;
     border: 1px solid rgb(23, 23, 29);
 }
+
 p{
+    margin-top: 10px;
     font-size: 14px;
     font-weight: bold;
     color: rgb(23, 23, 29);
+    text-align: center;
 }
+
+.precio{
+    margin-top: auto;
+}
+.tiendaenorden{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
 /* pag galeria */
 
-.galeria{
-    color: rgb(23, 23, 29);
-}
-.parrafo-galeria{
-    color: rgb(23, 23, 29);
+.encabezado-galeria{
+position: relative;
+padding-top: 50px;
+display: flex;
+flex-direction: column;
 }
 
+.volverinicio{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+.galeria{
+    font-size: 40px;
+    color: rgb(23, 23, 29);
+    text-align: center;
+    margin: 0;
+}
+
+.parrafo-galeria{
+    color: rgb(23, 23, 29);
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.videos{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    justify-content: center;
+    gap: 5px;
+}
 .video1{
     height: 600px;
-    border: 1px solid rgb(23, 23, 29);
+    border: 2px solid rgb(23, 23, 29);
+    margin-top: 50px;
+    border-radius: 10px;
+
 }
 
 
 /* nosotras */
-.parrafo-nosotras1{
+.encabezado-nosotras{
+    position: relative;
+padding-top: 50px;
+display: flex;
+flex-direction: column;
+}
+
+.nosotras{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+.parrafosnos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 70%;
+    margin: 20px auto;
+}
+.parrafo-nosotras{
+    margin-top: 20px;
     color: rgb(23, 23, 29);
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 500;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 .logonosotras{ 
-    height: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
 }
 
 /* contacto */
 
+.encabezado-contacto{
+    position: relative;
+padding-top: 50px;
+display: flex;
+flex-direction: column;
+}
+
+.contacto{
+    font-size: 40px;
+    text-align: center;
+}
 .sub-contacto{
     font-size: 20px;
     color: rgb(23, 23, 29);
+    margin-left: 20px;
 }
 
-.contacto1{
-    font-size: 15px;
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactos{
+    font-size: 17px;
     color: rgb(23, 23, 29);
-    font-weight: 450;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.redessociales{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 17px;
 }
 
+.contactoredes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    
+}
 .fcontacto{
     list-style: none;
     color: rgb(154, 8, 8);
     font-weight: 400 bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
 }
 
 .imgcontactof{
     height: 100px;
+    
 }
 
 .imgcontactoi{
-height: 75px;
+    height: 75px;
 }
 
 .imgcontactow{
 height: 90px;
 }
 
-.segundo-contacto{
-    font-size: 15px;
-    color: rgb(23, 23, 29);
-    font-weight: 450;
+.mapa{
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.contacto3{
-    font-size: 15px;
-    color: rgb(23, 23, 29);
-    font-weight: 450;
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 20px;
+    gap: 10px;
+    margin-left: 20px;
 }
+
+    
+    @media (max-width: 1110px){
+        .encabezado1{
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+    
+        .titulo-principal{
+            text-align: center;
+            margin: 10px 0;
+        }
+        .logo-container {
+            justify-content: center;
+        }
+        .fabrica {
+            font-size: 24px;
+            text-align: center;
+            margin: 10px 0;
+        }
+        
+        .presentacion{
+            font-size: 18px;
+        }
+
+        .barradenavegacion {
+            font-size: 20px;
+            justify-content: center;
+            margin-top: 10px 0;
+        }
+    
+        .videointro {
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+
+    }
+    
+    @media(max-width:690px){
+        .encabezado1 {
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+    
+        .logo-container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .presentacion{
+            font-size: 15px;
+        }
+    
+        .titulo-principal {
+            text-align: center;
+            font-size: 36px;
+            margin: 10px 0;
+        }
+    
+        .fabrica {
+            text-align: center;
+            font-size: 22px;
+            margin: 8px 0;
+        }
+
+    
+        .barradenavegacion {
+            flex-direction: row;
+            align-items: center;
+            gap: 1px;
+            margin-top: 10px;
+        }
+    
+        .barradenavegacion li {
+            margin: 2px;
+    
+        }
+        .videointro {
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+    
+        .videoinicio {
+            width: 90%;
+            max-width: 500px;
+            height: auto;
+    }
+    }
+    
+    @media (max-width:510px){
+        .encabezado1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        padding: 10px;
+    }
+
+    .logo-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .titulo-principal {
+        font-size: 28px;
+        text-align: center;
+    }
+    
+    .fabrica {
+        font-size: 18px;
+        text-align: center;}
+    
+    .barradenavegacion {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        gap: 10px;}
+    
+    .barradenavegacion li {
+        margin: 5px 0;}
+    }
+@media(max-width:620px){
+
+    .titulotienda{
+        font-size: 25px;
+    }
+
+    .subtitulotienda{
+        font-size: 20px;
+    }
+    .tiendaenorden {
+    grid-template-columns: 1fr; 
+    row-gap: 20px;
+    padding: 0 10px;
+}
+
+    .fotodebolsa {
+    width: 50%;
+    height: auto;
+}
+
+    section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .precio, p {
+    font-size: 14px;
+    text-align: center;
+}
+    }
