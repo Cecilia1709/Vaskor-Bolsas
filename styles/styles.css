@@ -1,62 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+body{
     margin: 0; 
     padding: 0; 
-    list-style: none;
     font-family: Montserrat;
     background-color: rgb(248, 246, 235)
 }
 
-header{
-    display: flex;
-    justify-content: space-around;
-    
-}
-
 .barradenavegacion li a{
     text-decoration: none;
+    font-size: 15px;
     color: rgb(154, 8, 8);
     font-weight: bold;
-    padding: 20px;
+    padding: 15px;
     display: block;
 }
 
 .barradenavegacion{
-
     list-style: none;
     display: flex;
 }
 
-.videointro{
+.f{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
 }
 
-.videoinicio{
-    margin-top: 30px;
-    height: 500px;
-    border-radius: 20px;
+.fotoinicio{
+    margin: 10px auto;
+    height: 550px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 1px 1px rgba(60, 60, 60, 0.2);
+}
 
+.loguito{
+    height: 30px;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    flex-direction: row-reverse;
 }
 
 .logo{
     height: 90px;
     width: auto;
     display: block;
+    
 }
 
 .logo-container{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     gap: 20px;
     width: 100%;
 }
-
 
 .encabezado{
     display: flex;
@@ -72,38 +78,43 @@ header{
 }
 
 
-.titulo-principal{
-    font-size: 50px;
-    font-weight: bolder;
-    color: rgb(23, 23, 29);
-    margin: 0 auto;
-}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
 
 .intro{
-    text-align: center;
-    align-self: center;
-    max-width: 80%;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: o auto;
+    }
 
 .presentacion{
     color: rgb(23, 23, 29);
     font-size: 20px;
     font-weight: 500 ;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .fabrica{
     font-size: 30px;
     color: rgb(23, 23, 29);
-    margin-bottom: 20px;
-    text-align: left;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    text-align: center;
 }
-
 
 .piepie{
     color: rgb(23, 23, 29);
     font-size: 17px;
     font-weight: 500;
-    margin-left: 50px;
+    margin: 0 auto;
+
+
 
 }
 .footer{
@@ -114,22 +125,23 @@ header{
     align-items: center;
 }
 
-.volverinicio a{
-    text-decoration: none;
-    color: rgb(154, 8, 8);
-    font-weight: 900 ;
-}
 
 /* Pag tienda */
 
-.encabezado-tienda{
+
+.encabezados{
 text-align: center;
-position: relative;
-padding-top: 50px;
 display: flex;
 flex-direction: column;
+align-items: flex-end;
 }
 
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
 .titulotienda{
     font-size: 40px;
     color: rgb(23, 23, 29);
@@ -137,16 +149,17 @@ flex-direction: column;
 }
 
 .subtitulotienda{
+    font-size: 20px;
     margin-top: 10px;
 }
 .fotodebolsa{
     margin-top: 10px;
     height: 300px;
-    border: 1px solid rgb(23, 23, 29);
+    box-shadow: 1px 1px 1px 1px rgba(60, 60, 60, 0.2);
 }
 
 p{
-    margin-top: 10px;
+    margin: 10px auto 0;
     font-size: 14px;
     font-weight: bold;
     color: rgb(23, 23, 29);
@@ -154,76 +167,42 @@ p{
 }
 
 .precio{
-    margin-top: auto;
+    margin: 0 auto;
 }
 .tiendaenorden{
     margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-items: center;
+    gap: 25px;
 }
 
 /* pag galeria */
 
-.encabezado-galeria{
-position: relative;
-padding-top: 50px;
-display: flex;
-flex-direction: column;
-}
 
-.volverinicio{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-
-
-.galeria{
+.titulogaleria{
     font-size: 40px;
     color: rgb(23, 23, 29);
     text-align: center;
-    margin: 0;
+    margin: 0 auto 20px;
 }
 
 .parrafo-galeria{
     color: rgb(23, 23, 29);
     font-size: 20px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: 0 0 50px 0;
 }
-.videos{
-    width: 90%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    justify-content: center;
-    gap: 5px;
-}
-.video1{
-    height: 600px;
-    border: 2px solid rgb(23, 23, 29);
-    margin-top: 50px;
-    border-radius: 10px;
 
+.carrusel{
+    box-shadow: 1px 1px 12px 5px rgba(67, 65, 65, 0.2);
 }
 
 
 /* nosotras */
-.encabezado-nosotras{
-    position: relative;
-padding-top: 50px;
-display: flex;
-flex-direction: column;
-}
 
 .nosotras{
     text-align: center;
     font-size: 40px;
 }
-
-
 
 .parrafosnos{
     display: flex;
@@ -252,13 +231,6 @@ flex-direction: column;
 
 /* contacto */
 
-.encabezado-contacto{
-    position: relative;
-padding-top: 50px;
-display: flex;
-flex-direction: column;
-}
-
 .contacto{
     font-size: 40px;
     text-align: center;
@@ -269,11 +241,6 @@ flex-direction: column;
     margin-left: 20px;
 }
 
-.contact{
-    display: flex;
-    flex-direction: column;
-}
-
 .contactos{
     font-size: 17px;
     color: rgb(23, 23, 29);
@@ -281,7 +248,7 @@ flex-direction: column;
     margin-left: 20px;
 }
 .redessociales{
-    text-align: left;
+    text-align: center;
     margin-top: 20px;
     font-size: 17px;
 }
@@ -290,10 +257,9 @@ flex-direction: column;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    justify-content: center;
     margin-top: 20px;
-    text-align: center;
-    
+    align-items: end;
+
 }
 .fcontacto{
     list-style: none;
@@ -331,10 +297,10 @@ height: 90px;
 .formulario{
     display: flex;
     flex-direction: column;
-    width: 300px;
-    margin-top: 20px;
+    width: 80%;
+    margin: 20px auto 0;
     gap: 10px;
-    margin-left: 20px;
+
 }
 
     
@@ -377,7 +343,7 @@ height: 90px;
 
     }
     
-    @media(max-width:690px){
+    @media(max-width:810px){
         .encabezado1 {
             flex-direction: column;
             align-items: center;
@@ -392,16 +358,19 @@ height: 90px;
         .presentacion{
             font-size: 15px;
         }
-    
-        .titulo-principal {
-            text-align: center;
-            font-size: 36px;
-            margin: 10px 0;
+        
+        .fotoinicio{
+            height: 400px;
+        }
+
+        .f{
+            flex-direction: column;
+            flex-wrap: wrap;
         }
     
         .fabrica {
             text-align: center;
-            font-size: 22px;
+            font-size: 25px;
             margin: 8px 0;
         }
 
@@ -411,32 +380,72 @@ height: 90px;
             align-items: center;
             gap: 1px;
             margin-top: 10px;
+            
         }
     
         .barradenavegacion li {
             margin: 2px;
     
         }
+
         .videointro {
             flex-direction: column;
             align-items: center;
             gap: 20px;
         }
     
+        .videos{
+        flex-direction: column;
+    }
+
         .videoinicio {
             width: 90%;
             max-width: 500px;
             height: auto;
     }
+
+        .titulotienda{
+        font-size: 25px;
+    }
+
+    .subtitulotienda{
+        font-size: 20px;
+    }
+    .tiendaenorden {
+    grid-template-columns: 1fr; 
+    row-gap: 20px;
+    padding: 0 10px;
+}
+
+    .fotodebolsa {
+    width: 70%;
+    height: auto;
+}
+
+    section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .precio, p {
+    font-size: 14px;
+    text-align: center;
+}
     }
     
     @media (max-width:510px){
+
         .encabezado1 {
         flex-direction: column;
         align-items: center;
         gap: 12px;
         padding: 10px;
     }
+    .barradenavegacion li a{
+            padding: 0;
+        }
 
     .logo-container {
         flex-direction: column;
@@ -461,35 +470,9 @@ height: 90px;
     .barradenavegacion li {
         margin: 5px 0;}
     }
+
+    
 @media(max-width:620px){
 
-    .titulotienda{
-        font-size: 25px;
-    }
 
-    .subtitulotienda{
-        font-size: 20px;
-    }
-    .tiendaenorden {
-    grid-template-columns: 1fr; 
-    row-gap: 20px;
-    padding: 0 10px;
-}
-
-    .fotodebolsa {
-    width: 50%;
-    height: auto;
-}
-
-    section {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-    .precio, p {
-    font-size: 14px;
-    text-align: center;
-}
     }
