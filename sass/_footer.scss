@@ -5,6 +5,29 @@ footer{
     width: 100%;
     background-color: rgba(237, 220, 212, 0.532);
 
+    .bt-wpp{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #29a71a;
+        border-radius: 50%;
+        padding: 7px;
+        box-shadow: 0 40px 6px rgba(0,0,0,0.3);
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        .wpp{
+            width: 40px;
+            height: 40px;
+        }
+    }
+    .bt-wpp:hover{
+        transform: scale(1.1);
+        transition: transform 0.2 ease;
+    }
+
     .contactosFooter{
         display: flex;
         margin: 7px auto;

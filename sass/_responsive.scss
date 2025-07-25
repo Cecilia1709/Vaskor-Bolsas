@@ -105,6 +105,9 @@ main {
 //ecología
 
         .contenido-eco{
+            @media (max-width: $breakpoint-lg) {
+                margin: 0 100px 50px;
+        }
             @media (max-width: $breakpoint-md){
             flex-direction: column;
             gap: 50px;
@@ -120,6 +123,15 @@ main {
             @media (max-width: $breakpoint-sm){
                 margin: 0 auto;
             }
+            .parrafo-eco1{
+                @media (max-width: $breakpoint-md){
+                width: 80%;
+                }
+                @media (max-width: $breakpoint-sm){
+                width: 70%;
+                }
+            }
+
         }
     }
 
@@ -181,6 +193,11 @@ main {
     }
 
 //Contacto
+    .contactoinicio .sub-contacto{
+        @media (max-width: $breakpoint-md) {
+            width: 95%;
+        }
+    }
     .contact-form {
         @media (max-width: $breakpoint-md) {
             margin-top: 6%;
