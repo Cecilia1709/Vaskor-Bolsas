@@ -1,0 +1,366 @@
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px;
+    margin-bottom: 100px;
+    
+
+    .inicio{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        column-gap: 15px;
+
+        .contenedorImg{
+            .fotoinicio{
+            margin: 10px auto;
+            height: 550px;
+            border-radius: 50px;
+            box-shadow: 1px 1px 1px 1px rgba(60, 60, 60, 0.2);
+            }
+        }
+
+        .intro{
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            flex-direction: column;
+            .fabrica{
+                text-align: center;
+            }
+
+            .presentacion{
+                text-align: center;
+
+            }
+        }
+    }
+
+    .intro2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 30px auto;
+        width: 70%;
+        gap: 30px;
+
+            .imgs{
+                display: flex;
+                align-items: center;
+
+                .caracteristicas{
+                    text-align: center;
+                    font-size: 25px;
+                    font-weight: bold;
+                }
+                
+                .imagen-caract{
+                    height: 50px;
+                    margin-left: 20px;
+                }
+            }
+
+            .imgs2{
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: row-reverse;
+                align-items: center;;
+
+                .caracteristicas{
+                    text-align: center;
+                    font-size: 25px;
+                    font-weight: bold;
+                }
+                
+                .imagen-caract{
+                    height: 50px;
+                    margin-right: 20px;
+                }
+            }
+    }
+    .nuestrosClientes{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+
+        h3{
+            font-size: 25px;
+        }
+        .clientes{
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 22px 75px;
+            align-items: center;
+            justify-items: center;
+            
+            .cliente55{
+                height: 55px;
+            }
+            .cliente60{
+                height: 60px;
+            }
+            .clienteM{
+                height: 20px;
+            }
+            .clienteQ{
+                height: 50px;
+            }
+            .clienteW{
+                height: 35px;
+            }
+        }
+    }
+
+
+
+
+    .principal{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+
+
+        .titulotienda{
+            font-size: 40px;
+            color: rgb(23, 23, 29);
+        }
+        .subtitulotienda{
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        .tienda{
+            margin-top: 30px;
+            margin-bottom: 100px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 25px;
+
+            .tiendaenorden{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .fotodebolsa{
+                margin-top: 10px;
+                height: 300px;
+                box-shadow: 1px 1px 1px 1px rgba(60, 60, 60, 0.2);
+            }
+            .descripcion{
+                text-align: center;
+                margin-top: 10px;
+            }
+            .unitario{
+                text-align: center;
+                font-size: 15px; 
+                font-weight:350;
+                margin-top: 0;
+            }
+            .precio{
+                margin: 0 auto;
+                font-size: 25px;
+            }
+
+            .comprar{
+                width: 80%;
+                margin: 0 auto;
+                background-color: #a93434;
+                color: white;
+                font-size: 15px;
+                border-radius: 20px;
+            }
+        }
+
+
+
+        .tituloeco{
+            font-weight: bolder;
+            text-align: center;
+            width: 100%;
+            margin: 0 auto 20px;
+        }
+
+        .contenido-eco{
+            display: flex;
+            align-items: center;
+            margin-bottom: 50px;
+            .vaskoreco{
+                height: 320px;
+                margin-left: 50px;
+            }
+            .parrafoseco{
+                display: flex;
+                flex-direction: column;
+                .subt-eco{
+                    color: rgb(23, 23, 29);
+                    font-size: 27px;
+                    width: 60%;
+                    margin: 0 auto;
+                    text-align: center;
+                    font-weight: 600;
+                }
+                .parrafo-eco{
+                    text-align: left;
+                    margin: 5px auto;
+                    width: 70%;
+                    font-size: 16px;
+                }
+            }
+        }
+        .contenido-eco2{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            margin: 0 60px 100px;
+            .parrafo-eco1{
+                text-align: center;
+                margin: 5px auto;
+                padding: 15px;
+                width: 70%;
+                font-size: 16px;
+                box-shadow: 1px 1px 1px 1px rgba(60, 60, 60, 0.286);
+                    font-weight: 600;
+                    background-color: #7a9f63a2;
+                    border-radius: 15px;
+            }
+            .parrafo-eco2{
+                @extend .parrafo-eco1;
+                    background-color: #e19696a2;
+            }
+        }
+    
+    }
+
+
+
+    .contenidoPNosotras{
+        margin-bottom: 50px;
+    
+        .nosotras{
+        text-align: center;
+        font-size: 40px;
+        }
+
+    .parrafosnos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px auto;
+    padding: 10px;
+    
+        .parrafo-nosotras{
+            width: 50%;
+            text-align: left;
+            margin-left: 25px;
+        }
+        .logonosotras{ 
+            height: 270px;
+            margin: 0 auto;
+            margin-top: 30px;
+            border-radius: 30px;
+        }
+    }
+    }
+
+    .contenidoSNosotras{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 50px;
+
+        .gFabrica{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-left: 20px;
+            justify-items: stretch;
+
+            .fotoFabrica{
+                height: 200px;
+                border-radius: 30px;
+            }
+        }
+        .parrafo-nosotras2{
+            @extend .parrafo-nosotras;
+        }
+    }
+
+    .contenidoTNosotras{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        margin-bottom: 100px;
+
+        .parrafo-nosotras3{
+            @extend .parrafo-nosotras;
+            text-align: center;
+        }
+
+        .videosF{
+            display: flex;
+            align-items: stretch;
+            gap: 50px;
+            .videoFabrica{
+                height: 370px;
+                border-radius: 30px;
+            }
+        }
+    }
+
+
+
+    .contactoinicio{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+
+        .contacto{
+            font-size: 40px;
+            text-align: center;
+        }
+        .sub-contacto{
+            font-size: 20px;
+            color: rgb(23, 23, 29);
+            margin-left: 20px;
+        }
+    }
+    .contact-form .row .col-md-6{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .contactos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 17px;
+        color: rgb(23, 23, 29);
+        font-weight: 500;
+        margin-left: 20px;
+        .redessociales{
+            text-align: center;
+            margin-top: 20px;
+            font-size: 17px;
+        }
+        .mapa{
+            display: block;
+            margin: 0 auto;
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    
+    
+
+}

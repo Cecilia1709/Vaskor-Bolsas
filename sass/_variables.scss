@@ -1,0 +1,58 @@
+@mixin basico ($color,$font-size,$font-weight,$margin){
+    color:$color;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    margin: $margin;
+}
+
+@mixin var-imgs ($box-shadow,$margin,$padding,$border-radius){
+    box-shadow: $box-shadow;
+    margin: $margin;
+    padding: $padding;
+    border-radius: $border-radius;
+}
+
+
+
+.imgs{
+    @include var-imgs(1px 1px 1px 1px rgba(60, 60, 60, 0.6), 0 0 0 20px, 0 0 0 10px , 20px)
+}
+
+.imgs2{
+    @include var-imgs(1px 1px 1px 1px rgba(60, 60, 60, 0.6), 0 20px 0 0 , 0 10px 0 0 , 20px)
+}
+.barradenavegacion li a {
+@include basico(rgb(154, 8, 8), 15px, bold, 0)
+}
+
+.piepie{
+    @include basico( rgb(23, 23, 29),17px, 300, 0 auto)
+}
+
+.fabrica{
+    @include basico(rgb(23, 23, 29), 30px, 0, 5px 0 0 10px )
+}
+
+.presentacion{
+    @include basico(rgb(23, 23, 29), 20px, 500, 0 auto )
+}
+
+.descripcion{
+    @include basico(rgb(23, 23, 29), 14px, bold, 10px auto 0)
+}
+
+.titulogaleria{
+    @include basico(rgb(23, 23, 29), 40px, 0, 0 auto 20px)
+}
+
+.parrafo-nosotras{
+    @include basico(rgb(23, 23, 29), 16px, 500, 20px 0 15px )
+}
+
+.parrafo-nosotras2{
+    @include basico(rgb(23, 23, 29), 16px, 500, 20px 0 15px )
+}
+
+.parrafo-nosotras3{
+    @include basico(rgb(23, 23, 29), 16px, 500, 20px 0 15px )
+}

@@ -1,0 +1,58 @@
+header{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgb(245, 238, 224);
+
+    .encabezado1{
+        display: flex;
+        position: relative;
+        justify-content:flex-end;
+        align-items: center;
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom:10px ;
+
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .logo-container{
+            .logo{
+                height: 70px;
+                width: auto;
+                display: block;
+                }
+            }  
+
+        .navbar-collapse{
+            flex-direction: row-reverse;
+
+            .loguito{
+                height: 30px;
+            }
+        }
+        
+        
+        .barradenavegacion{
+                display: flex;
+                list-style: none;
+                
+                
+                li a {
+                    text-decoration: none;
+                    padding: 15px;
+                    display: block;
+                    
+                }
+            } 
+        }
+    }
+}

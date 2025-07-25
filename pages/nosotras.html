@@ -6,55 +6,98 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <title>Vaskor Bolsas - Nosotras</title>
     <link rel="shortcut icon" href="../assets/imgs/Loguito-removebg-preview.png" type="image/x-icon">
-    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/style.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
-    <header class="encabezados">
-        <nav class="navbar navbar-expand-lg ">
-    <div class="container-fluid">
+  <header>
+    <div class="encabezado1">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="logo-container">
+        <a href="../index.html"><img src="../assets/imgs/logo-removebg-preview.png"alt="el logo de vaskor bolsas" class="logo"> </a>
+      </div> 
+      <div class="container-fluid">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+          <span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <img src="../assets/imgs/Loguito-removebg-preview.png" alt="loguito" class="loguito">
-        <ul class="navbar-nav barradenavegacion">
+          <ul class="navbar-nav barradenavegacion">
             <li class="nav-item">
-                <a class="nav-link active" href="../index.html">Inicio</a>
-        </li>
+              <a class="nav-link " aria-current="page" href="../pages/tienda.html">Tienda</a>
+            </li>
             <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./tienda.html">Tienda</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./galeria.html">Galería</a>
-        </li>
+              <a class="nav-link" href="../pages/ecologia.html">Ecología</a>
+            </li>
             <li class="nav-item">
-                <a class="nav-link" href="./contacto.html">Contacto</a>
-        </li>
-        </ul>
+              <a class="nav-link active" href="#">Nosotras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     </div>
-</div>
-</nav>
-</header>
+  </header>
 
 <main>  
-    <div>    
+    <div class="contenidoPNosotras " data-aos="fade-right" data-aos-duration="3000">    
         <h1 class="nosotras">Nosotras</h1>
-        <div class="parrafosnos">
-            <p class="parrafo-nosotras">Somos una empresa de fabricación de bolsas de friselina, nos destacamos por nuestro excelente servicio y alta calidad de nuestros porductos. Buscando reducir el uso de bolsas plásticas, creamos VASKOR BOLSAS. 
-            <p class="parrafo-nosotras">En nuestra fábrica, valoramos y respetamos profundamente nuestra cultura de trabajo, ya que la consideramos fundamental para mantener los estándares de excelencia que nos caracterizan.</p>
-            <p class="parrafo-nosotras">Estamos comprometidos con satisfacer las necesidades de nuestros clientes y en seguir innovando en el sector de bolsas. ¡Bienvenidos a nuestra empresa!</p>
-        </div></div>
+      <div class="parrafosnos">
+        <p class="parrafo-nosotras">Somos una empresa de fabricación de bolsas de friselina, nos destacamos por nuestro excelente servicio y alta calidad de nuestros porductos. Buscando reducir el uso de bolsas plásticas, creamos VASKOR BOLSAS. </p>
+              <img src="../assets/imgs/fabrica.png" alt="logo2" class="logonosotras">
+        </div>
+    </div>
+    
+    <div class="contenidoSNosotras" data-aos="fade-left" data-aos-duration="3000">
+      <div class="gFabrica">
+        <img src="../assets/bolsas/01.jpg" alt="1" class="fotoFabrica">
+        <img src="../assets/bolsas/05.jpg" alt="1" class="fotoFabrica">
+        <img src="../assets/bolsas/home08.jpg" alt="1" class="fotoFabrica">
+        <img src="../assets/bolsas/home02.jpg" alt="1" class="fotoFabrica">
+      </div>
+      <p class="parrafo-nosotras2">En nuestra fábrica, valoramos y respetamos profundamente nuestra cultura de trabajo, ya que la consideramos fundamental para mantener los estándares de excelencia que nos caracterizan.</p>
+    </div>
 
-    <section class="logonosotras">
-        <img src="../assets/imgs/logo-removebg-preview.png" alt="logo2" >
-    </section>
+    <div class="contenidoTNosotras" data-aos="fade-up" data-aos-duration="3000">
+      <p class="parrafo-nosotras3">Estamos comprometidos con satisfacer las necesidades de nuestros clientes contando con servicios personalizados con la vision fija en seguir innovando en el sector de bolsas. ¡Bienvenidos a nuestra empresa!</p>
+      <div class="videosF">
+        <video src="../assets/bolsas/video5.mp4"muted autoplay loop class="videoFabrica"></video>
+        <video src="../assets/bolsas/video6.mp4"muted autoplay loop class="videoFabrica"></video>
+        <video src="../assets/bolsas/video7 .mp4"muted autoplay loop class="videoFabrica"></video>
+      </div>
+    </div>
+
 </main>
 
-<footer class="footer">
-    <p class="piepie">Pensado para cuidar el medioambiente</p>
-</footer>
+<footer>
+    <div class="contactosFooter">
+        <div class="logoContacto">
+            <img src="../assets/imgs/logo vaskor fabrica de bolsas ecologicas.png" alt="logofooter" class="logoFooter"> 
+            <div class="contactosF">
+                <a href="https://www.facebook.com/">
+                <img src="../assets/imgs/facebook (1).png" alt="loguitofb" class="logoContacto "></a>
 
+                <a href="">
+                <img src="../assets/imgs/linkedin.png" alt="loguitolkn" class="logoContacto"></a>
+
+                <a href="https://www.instagram.com/vaskorbolsas_/">
+                <img src="../assets/imgs/instagram (1).png" alt="loguitoig" class="logoContacto"></a>
+            </div>
+        </div>
+            
+        <div>
+            <p class="piepie">Pensado para cuidar el medioambiente 🌱</p>
+        </div>
+    </div>
+</footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>

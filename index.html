@@ -5,64 +5,115 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
    <title>Vaskor Bolsas - Home</title>
-
-   <link rel="stylesheet" href="./styles/styles.css">
    <link rel="shortcut icon" href="./assets/imgs/Loguito-removebg-preview.png" type="image/x-icon">
-   
-   <link rel="stylesheet" href="styles/styles.css">
-
+   <link rel="stylesheet" href="./styles/style.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-   <header class="encabezado"> 
+   <header > 
       <div class="encabezado1">
-      <div class="logo-container">
-      <a href="./index.html"><img src="./assets/imgs/logo-removebg-preview.png"alt="el logo de vaskor bolsas" class="logo"> </a>
-   </div> 
-
-   <nav class="navbar navbar-expand-lg ">
-   <div class="container-fluid">
-      <a class="navbar-brand" href="#"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span></button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav barradenavegacion">
-         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./pages/tienda.html">Tienda</a>
-         </li>
-         <li class="nav-item">
-            <a class="nav-link" href="./pages/galeria.html">Galería</a>
-         </li>
-         <li class="nav-item">
+         
+         <nav class="navbar navbar-expand-lg ">
+            <div class="logo-container">
+            <a href="./index.html"><img src="./assets/imgs/logo-removebg-preview.png"alt="el logo de vaskor bolsas" class="logo"> </a>
+            </div> 
+            <div class="container-fluid">
+         <a class="navbar-brand" href="#"></a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span></button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="navbar-nav barradenavegacion">
+            <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./pages/tienda.html">Tienda</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="./pages/ecologia.html">Ecología</a>
+            </li>
+            <li class="nav-item">
             <a class="nav-link" href="./pages/nosotras.html">Nosotras</a>
-         </li>
-         <li class="nav-item">
+            </li>
+            <li class="nav-item">
             <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-         </li>
-      </ul>
+            </li>
+         </ul>
+         </div>
       </div>
-   </div>
-   </nav>
-</div>
+      </nav>
+      </div>
 </header>
 
    <main>
-      <div class="f"> 
-      <section class="inicio">
+      <div class="inicio"> 
+      <section class="contenedorImg">
          <img src="./assets/bolsas/Copilot_20250711_211630.png" alt="foto" class="fotoinicio">
       </section>
 
       <div class="intro">
          <h2 class="fabrica">Fábrica de Bolsas de Friselina</h2>
-         <p class="presentacion">Apostamos a la sostenibilidad y marcamos la diferencia.</p></div>
+         <p class="presentacion">Apostamos a la sostenibilidad y marcamos la diferencia.</p>
+      </div>
+      </div>
+
+      <div class="intro2">
+         <section class="imgs " data-aos="fade-right">
+            <h3 class="caracteristicas">Ecológicas</h3>
+            <img src="./assets/imgs/eco.png" alt="imgeco" class="imagen-caract">
+         </section>
+         <section class="imgs2" data-aos="fade-left">
+            <h3 class="caracteristicas">Reutilizables</h3>
+            <img src="./assets/imgs/reu.png" alt="imgreu" class="imagen-caract">
+         </section>
+         <section class="imgs" data-aos="fade-right">
+            <h3 class="caracteristicas">Personalizadas</h3>
+            <img src="./assets/imgs/personalizadas.png" alt="imgpers" class="imagen-caract">
+         </section>
+         <section class="imgs2" data-aos="fade-left">
+            <h3 class="caracteristicas">Variedad de tamaños y colores</h3>
+            <img src="./assets/imgs/variedades.png" alt="imgvar" class="imagen-caract">
+         </section>
+      </div>
       
+      <div class="nuestrosClientes">
+         <h3>Nuestros clientes</h3>
+         <div class="clientes">
+            <img src="./assets/imgs/CK.png" alt="ck" class="cliente55">
+            <img src="./assets/imgs/elemento.png" alt="elemento" class="cliente60">
+            <img src="./assets/imgs/DC.png" alt="DC" class="cliente60">
+            <img src="./assets/imgs/m&c.png" alt="m&c" class="clienteM">
+            <img src="./assets/imgs/quicksilver.png" alt="quicksilver" class="clienteQ">
+            <img src="./assets/imgs/rayban.png" alt="rayban" class="cliente55">
+            <img src="./assets/imgs/waiting.png" alt="waiting" class="clienteW">
+            <img src="./assets/imgs/levi's.png" alt="levis" class="cliente60">
+         </div>
       </div>
    </main>
 
-   <footer class="footer">
-<p class="piepie">Pensado para cuidar el medioambiente</p>
-   </footer>
-
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<footer>
+   <div class="contactosFooter">
+      <div class="logoContacto">
+         <img src="./assets/imgs/logo vaskor fabrica de bolsas ecologicas.png" alt="logofooter" class="logoFooter"> 
+         <div class="contactosF">
+            <a href="https://www.facebook.com/">
+               <img src="./assets/imgs/facebook (1).png" alt="loguitofb" class="logoContacto "></a>
+         
+         <a href="">
+            <img src="./assets/imgs/linkedin.png" alt="loguitolkn" class="logoContacto"></a>
+            
+            <a href="https://www.instagram.com/vaskorbolsas_/">
+               <img src="./assets/imgs/instagram (1).png" alt="loguitoig" class="logoContacto"></a>
+            </div>
+            </div>
+            
+            <div>
+               <p class="piepie">Pensado para cuidar el medioambiente 🌱</p>
+            </div>
+         </div>
+</footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>

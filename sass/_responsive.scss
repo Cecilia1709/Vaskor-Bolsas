@@ -1,0 +1,218 @@
+$breakpoint-sm: 480px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+
+//Responsive
+//index
+header .encabezado1{
+    .navbar{
+            @media (max-width: $breakpoint-sm) {
+                flex-direction: column;
+            }
+        .container-fluid{
+            @media (max-width: $breakpoint-sm) {
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+        }
+
+
+        .barradenavegacion {
+        @media (max-width: $breakpoint-md) {
+                flex-direction: row;
+            }
+            @media (max-width: $breakpoint-sm) {
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+//main
+main {
+    .inicio {
+        @media (max-width: $breakpoint-lg) {
+        }
+        @media (max-width: $breakpoint-md) {
+            flex-direction: column;
+            gap: 20px;
+        }
+        @media (max-width: $breakpoint-sm) {
+        }
+        .contenedorImg {
+            @media (max-width: $breakpoint-md) {
+            margin: 0 auto;
+            }
+            .fotoinicio {
+                @media (max-width: $breakpoint-sm) {
+                    height: auto;
+                    width: 90%;
+                    margin: 0 auto;
+                    display: block;
+                }
+            }
+        }
+        .intro {
+            @media (max-width: $breakpoint-md) {
+                width: 70%;
+            }
+        }
+    }
+    
+    .nuestrosClientes{
+            @media (max-width: $breakpoint-md){
+                margin: 60px 16px 60px 16px;
+            }
+            @media (max-width: $breakpoint-sm){
+                align-items: center;
+            }
+        .clientes{
+            @media (max-width: $breakpoint-md){
+
+            }
+
+            @media (max-width: $breakpoint-sm){
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    }
+//tienda
+
+    .principal{
+        .titulotienda{
+            @media (max-width: $breakpoint-md) {
+                font-size: 35px;
+            }
+            @media (max-width: $breakpoint-sm) {
+                font-size: 33px;
+        }
+        }
+        .subtitulotienda{
+            @media (max-width: $breakpoint-md) {
+                font-size: 15px;
+            }
+        }
+
+        .tienda{
+            @media (max-width: $breakpoint-md) {
+                grid-template-columns: 1fr 1fr;
+            }
+            @media (max-width: $breakpoint-sm) {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+//ecología
+
+        .contenido-eco{
+            @media (max-width: $breakpoint-md){
+            flex-direction: column;
+            gap: 50px;
+            }
+            .vaskoreco{
+                @media (max-width: $breakpoint-md){
+                    margin:0;
+                }
+            }
+        }
+
+        .contenido-eco2{
+            @media (max-width: $breakpoint-sm){
+                margin: 0 auto;
+            }
+        }
+    }
+
+//Nosotras
+    .contenidoPNosotras .parrafosnos{
+        @media (max-width: $breakpoint-sm){
+            flex-direction: column;
+        }
+        .parrafo-nosotras{
+            @media (max-width: $breakpoint-sm){
+                width: 90%;
+            }
+        }
+    }
+
+    .contenidoSNosotras{
+        @media (max-width: $breakpoint-sm){
+        flex-direction: column-reverse;
+        }
+        .gFabrica{
+            @media (max-width: $breakpoint-sm){
+            margin: 0 auto;
+            }
+            .fotoFabrica{
+                @media (max-width: $breakpoint-sm){
+                height: 140px;
+                }
+            }
+        }
+        .parrafo-nosotras2{
+            @media (max-width: $breakpoint-sm){
+                width: 85%;
+                }
+        }
+    }
+
+    .contenidoTNosotras{ 
+        .parrafo-nosotras3{
+            @media (max-width: $breakpoint-sm){
+                width: 122%;
+            }
+        }
+
+        .videosF{
+            @media (max-width: $breakpoint-sm){
+                width: 142%;
+                column-gap: 35px;
+                row-gap: 15px;
+                flex-wrap: wrap;
+                justify-content: center;
+                flex-direction: row;
+            }
+            .videoFabrica{
+                @media (max-width: $breakpoint-sm){
+                    height: 315px;
+                }
+            }
+        }
+    }
+
+//Contacto
+    .contact-form {
+        @media (max-width: $breakpoint-md) {
+            margin-top: 6%;
+        }
+
+        @media (max-width: $breakpoint-sm) {
+            margin-top: 10%;
+        }
+
+        .row  {
+            @media (max-width: $breakpoint-sm) {
+                gap: 10px;
+        }
+            .col-md-6{
+                @media (max-width: $breakpoint-sm) {
+                    gap: 5px;
+                }
+            }
+        }
+    }
+    .contactos .mapa{
+        @media (max-width: $breakpoint-sm) {
+            width: 350px;
+        }
+    }
+
+
+}
+
+//footer
+footer .contactosFooter{
+    @media (max-width: $breakpoint-sm) {
+        margin: 7px 9px;
+    }
+}

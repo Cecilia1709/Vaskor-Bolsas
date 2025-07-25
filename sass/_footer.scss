@@ -1,0 +1,37 @@
+footer{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgba(237, 220, 212, 0.532);
+
+    .contactosFooter{
+        display: flex;
+        margin: 7px auto;
+        gap: 50px;
+        align-items: center;
+
+        .logoContacto{
+            display: flex;
+            flex-direction: column;
+            row-gap: 8px;
+            align-items: center;
+
+            .logoFooter{
+                height:60px;
+            }
+
+            .contactosF{
+                display: flex;
+
+                .logoContacto{
+                    height: 20px;
+                    margin: 5px;
+                }
+            }
+        }
+    }
+}
+
+
+

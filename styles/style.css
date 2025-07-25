@@ -1,0 +1,707 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: rgb(245, 238, 224);
+}
+header .encabezado1 {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+header .encabezado1 .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header .encabezado1 .navbar .logo-container .logo {
+  height: 70px;
+  width: auto;
+  display: block;
+}
+header .encabezado1 .navbar .navbar-collapse {
+  flex-direction: row-reverse;
+}
+header .encabezado1 .navbar .navbar-collapse .loguito {
+  height: 30px;
+}
+header .encabezado1 .navbar .barradenavegacion {
+  display: flex;
+  list-style: none;
+}
+header .encabezado1 .navbar .barradenavegacion li a {
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 35px;
+  margin-bottom: 100px;
+}
+main .inicio {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  column-gap: 15px;
+}
+main .inicio .contenedorImg .fotoinicio {
+  margin: 10px auto;
+  height: 550px;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px 1px rgba(60, 60, 60, 0.2);
+}
+main .inicio .intro {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+}
+main .inicio .intro .fabrica {
+  text-align: center;
+}
+main .inicio .intro .presentacion {
+  text-align: center;
+}
+main .intro2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px auto;
+  width: 70%;
+  gap: 30px;
+}
+main .intro2 .imgs {
+  display: flex;
+  align-items: center;
+}
+main .intro2 .imgs .caracteristicas {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+main .intro2 .imgs .imagen-caract {
+  height: 50px;
+  margin-left: 20px;
+}
+main .intro2 .imgs2 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+main .intro2 .imgs2 .caracteristicas {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+main .intro2 .imgs2 .imagen-caract {
+  height: 50px;
+  margin-right: 20px;
+}
+main .nuestrosClientes {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+main .nuestrosClientes h3 {
+  font-size: 25px;
+}
+main .nuestrosClientes .clientes {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 22px 75px;
+  align-items: center;
+  justify-items: center;
+}
+main .nuestrosClientes .clientes .cliente55 {
+  height: 55px;
+}
+main .nuestrosClientes .clientes .cliente60 {
+  height: 60px;
+}
+main .nuestrosClientes .clientes .clienteM {
+  height: 20px;
+}
+main .nuestrosClientes .clientes .clienteQ {
+  height: 50px;
+}
+main .nuestrosClientes .clientes .clienteW {
+  height: 35px;
+}
+main .principal {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+main .principal .titulotienda {
+  font-size: 40px;
+  color: rgb(23, 23, 29);
+}
+main .principal .subtitulotienda {
+  font-size: 20px;
+  margin-top: 10px;
+}
+main .principal .tienda {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+}
+main .principal .tienda .tiendaenorden {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .principal .tienda .fotodebolsa {
+  margin-top: 10px;
+  height: 300px;
+  box-shadow: 1px 1px 1px 1px rgba(60, 60, 60, 0.2);
+}
+main .principal .tienda .descripcion {
+  text-align: center;
+  margin-top: 10px;
+}
+main .principal .tienda .unitario {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 350;
+  margin-top: 0;
+}
+main .principal .tienda .precio {
+  margin: 0 auto;
+  font-size: 25px;
+}
+main .principal .tienda .comprar {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #a93434;
+  color: white;
+  font-size: 15px;
+  border-radius: 20px;
+}
+main .principal .tituloeco {
+  font-weight: bolder;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto 20px;
+}
+main .principal .contenido-eco {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+main .principal .contenido-eco .vaskoreco {
+  height: 320px;
+  margin-left: 50px;
+}
+main .principal .contenido-eco .parrafoseco {
+  display: flex;
+  flex-direction: column;
+}
+main .principal .contenido-eco .parrafoseco .subt-eco {
+  color: rgb(23, 23, 29);
+  font-size: 27px;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 600;
+}
+main .principal .contenido-eco .parrafoseco .parrafo-eco {
+  text-align: left;
+  margin: 5px auto;
+  width: 70%;
+  font-size: 16px;
+}
+main .principal .contenido-eco2 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 0 60px 100px;
+}
+main .principal .contenido-eco2 .parrafo-eco1, main .principal .contenido-eco2 .parrafo-eco2 {
+  text-align: center;
+  margin: 5px auto;
+  padding: 15px;
+  width: 70%;
+  font-size: 16px;
+  box-shadow: 1px 1px 1px 1px rgba(60, 60, 60, 0.286);
+  font-weight: 600;
+  background-color: rgba(122, 159, 99, 0.6352941176);
+  border-radius: 15px;
+}
+main .principal .contenido-eco2 .parrafo-eco2 {
+  background-color: rgba(225, 150, 150, 0.6352941176);
+}
+main .contenidoPNosotras {
+  margin-bottom: 50px;
+}
+main .contenidoPNosotras .nosotras {
+  text-align: center;
+  font-size: 40px;
+}
+main .contenidoPNosotras .parrafosnos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px auto;
+  padding: 10px;
+}
+main .contenidoPNosotras .parrafosnos .parrafo-nosotras, main .contenidoPNosotras .parrafosnos .contenidoTNosotras .parrafo-nosotras3, main .contenidoTNosotras .contenidoPNosotras .parrafosnos .parrafo-nosotras3, main .contenidoPNosotras .parrafosnos .contenidoSNosotras .parrafo-nosotras2, main .contenidoSNosotras .contenidoPNosotras .parrafosnos .parrafo-nosotras2 {
+  width: 50%;
+  text-align: left;
+  margin-left: 25px;
+}
+main .contenidoPNosotras .parrafosnos .logonosotras {
+  height: 270px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+main .contenidoSNosotras {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+main .contenidoSNosotras .gFabrica {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-left: 20px;
+  justify-items: stretch;
+}
+main .contenidoSNosotras .gFabrica .fotoFabrica {
+  height: 200px;
+  border-radius: 30px;
+}
+main .contenidoTNosotras {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin-bottom: 100px;
+}
+main .contenidoTNosotras .parrafo-nosotras3 {
+  text-align: center;
+}
+main .contenidoTNosotras .videosF {
+  display: flex;
+  align-items: stretch;
+  gap: 50px;
+}
+main .contenidoTNosotras .videosF .videoFabrica {
+  height: 370px;
+  border-radius: 30px;
+}
+main .contactoinicio {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+main .contactoinicio .contacto {
+  font-size: 40px;
+  text-align: center;
+}
+main .contactoinicio .sub-contacto {
+  font-size: 20px;
+  color: rgb(23, 23, 29);
+  margin-left: 20px;
+}
+main .contact-form .row .col-md-6 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+main .contactos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 17px;
+  color: rgb(23, 23, 29);
+  font-weight: 500;
+  margin-left: 20px;
+}
+main .contactos .redessociales {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+main .contactos .mapa {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  background-color: rgba(237, 220, 212, 0.532);
+}
+footer .contactosFooter {
+  display: flex;
+  margin: 7px auto;
+  gap: 50px;
+  align-items: center;
+}
+footer .contactosFooter .logoContacto {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  align-items: center;
+}
+footer .contactosFooter .logoContacto .logoFooter {
+  height: 60px;
+}
+footer .contactosFooter .logoContacto .contactosF {
+  display: flex;
+}
+footer .contactosFooter .logoContacto .contactosF .logoContacto {
+  height: 20px;
+  margin: 5px;
+}
+
+.imgs {
+  box-shadow: 1px 1px 1px 1px rgba(60, 60, 60, 0.6);
+  margin: 0 0 0 20px;
+  padding: 0 0 0 10px;
+  border-radius: 20px;
+}
+
+.imgs2 {
+  box-shadow: 1px 1px 1px 1px rgba(60, 60, 60, 0.6);
+  margin: 0 20px 0 0;
+  padding: 0 10px 0 0;
+  border-radius: 20px;
+}
+
+.barradenavegacion li a {
+  color: rgb(154, 8, 8);
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.piepie {
+  color: rgb(23, 23, 29);
+  font-size: 17px;
+  font-weight: 300;
+  margin: 0 auto;
+}
+
+.fabrica {
+  color: rgb(23, 23, 29);
+  font-size: 30px;
+  font-weight: 0;
+  margin: 5px 0 0 10px;
+}
+
+.presentacion {
+  color: rgb(23, 23, 29);
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+.descripcion {
+  color: rgb(23, 23, 29);
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px auto 0;
+}
+
+.titulogaleria {
+  color: rgb(23, 23, 29);
+  font-size: 40px;
+  font-weight: 0;
+  margin: 0 auto 20px;
+}
+
+.parrafo-nosotras {
+  color: rgb(23, 23, 29);
+  font-size: 16px;
+  font-weight: 500;
+  margin: 20px 0 15px;
+}
+
+.parrafo-nosotras2 {
+  color: rgb(23, 23, 29);
+  font-size: 16px;
+  font-weight: 500;
+  margin: 20px 0 15px;
+}
+
+.parrafo-nosotras3 {
+  color: rgb(23, 23, 29);
+  font-size: 16px;
+  font-weight: 500;
+  margin: 20px 0 15px;
+}
+
+@media (max-width: 480px) {
+  header .encabezado1 .navbar {
+    flex-direction: column;
+  }
+}
+@media (max-width: 480px) {
+  header .encabezado1 .navbar .container-fluid {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  header .encabezado1 .navbar .barradenavegacion {
+    flex-direction: row;
+  }
+}
+@media (max-width: 480px) {
+  header .encabezado1 .navbar .barradenavegacion {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  main .inicio {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media (max-width: 768px) {
+  main .inicio .contenedorImg {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 480px) {
+  main .inicio .contenedorImg .fotoinicio {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  main .inicio .intro {
+    width: 70%;
+  }
+}
+@media (max-width: 768px) {
+  main .nuestrosClientes {
+    margin: 60px 16px 60px 16px;
+  }
+}
+@media (max-width: 480px) {
+  main .nuestrosClientes {
+    align-items: center;
+  }
+}
+@media (max-width: 480px) {
+  main .nuestrosClientes .clientes {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 768px) {
+  main .principal .titulotienda {
+    font-size: 35px;
+  }
+}
+@media (max-width: 480px) {
+  main .principal .titulotienda {
+    font-size: 33px;
+  }
+}
+@media (max-width: 768px) {
+  main .principal .subtitulotienda {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  main .principal .tienda {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 480px) {
+  main .principal .tienda {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 768px) {
+  main .principal .contenido-eco {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+@media (max-width: 768px) {
+  main .principal .contenido-eco .vaskoreco {
+    margin: 0;
+  }
+}
+@media (max-width: 480px) {
+  main .principal .contenido-eco2 {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 480px) {
+  main .contenidoPNosotras .parrafosnos {
+    flex-direction: column;
+  }
+}
+@media (max-width: 480px) {
+  main .contenidoPNosotras .parrafosnos .parrafo-nosotras {
+    width: 90%;
+  }
+}
+@media (max-width: 480px) {
+  main .contenidoSNosotras {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 480px) {
+  main .contenidoSNosotras .gFabrica {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 480px) {
+  main .contenidoSNosotras .gFabrica .fotoFabrica {
+    height: 140px;
+  }
+}
+@media (max-width: 480px) {
+  main .contenidoSNosotras .parrafo-nosotras2 {
+    width: 85%;
+  }
+}
+@media (max-width: 480px) {
+  main .contenidoTNosotras .parrafo-nosotras3 {
+    width: 122%;
+  }
+}
+@media (max-width: 480px) {
+  main .contenidoTNosotras .videosF {
+    width: 142%;
+    column-gap: 35px;
+    row-gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+  }
+}
+@media (max-width: 480px) {
+  main .contenidoTNosotras .videosF .videoFabrica {
+    height: 315px;
+  }
+}
+@media (max-width: 768px) {
+  main .contact-form {
+    margin-top: 6%;
+  }
+}
+@media (max-width: 480px) {
+  main .contact-form {
+    margin-top: 10%;
+  }
+}
+@media (max-width: 480px) {
+  main .contact-form .row {
+    gap: 10px;
+  }
+}
+@media (max-width: 480px) {
+  main .contact-form .row .col-md-6 {
+    gap: 5px;
+  }
+}
+@media (max-width: 480px) {
+  main .contactos .mapa {
+    width: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  footer .contactosFooter {
+    margin: 7px 9px;
+  }
+}
+
+.contact-form {
+  background: rgba(137, 35, 35, 0.5098039216);
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 70%;
+  border-radius: 20px;
+}
+.contact-form .contact-image {
+  text-align: center;
+}
+.contact-form .contact-image img {
+  border-radius: 1rem;
+  background-color: #ebeae7;
+  height: 90px;
+  margin-top: -4%;
+  transform: rotate(29deg);
+}
+.contact-form form {
+  padding: 14%;
+}
+.contact-form form h3 {
+  margin-bottom: 8%;
+  margin-top: -10%;
+  text-align: center;
+  color: rgb(27, 28, 30);
+}
+.contact-form form .row {
+  margin-bottom: -7%;
+}
+.contact-form form .row .form-control {
+  border-radius: 1rem;
+}
+.contact-form form .row .btnContact {
+  width: 50%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #72121c;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+.contact-form form .row .btnContactSubmit {
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #740101;
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+  background-color: rgb(248, 246, 235);
+}
+
+/*# sourceMappingURL=style.css.map */

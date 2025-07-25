@@ -427,7 +427,7 @@ height: 90px;
     }
     }
     
-    @media (max-width:510px){
+    /* @media (max-width:510px){
         .encabezado1 {
         flex-direction: column;
         align-items: center;
@@ -456,8 +456,8 @@ height: 90px;
         gap: 10px;}
     
     .barradenavegacion li {
-        margin: 5px 0;}
-    }
+        margin: 5px 0;} */
+    
 @media(max-width:620px){
 
     .titulotienda{
